@@ -1,5 +1,7 @@
 # R.swift [![Version](https://img.shields.io/cocoapods/v/R.swift.svg?style=flat)](https://cocoapods.org/pods/R.swift) [![License](https://img.shields.io/cocoapods/l/R.swift.svg?style=flat)](blob/master/License) ![Platform](https://img.shields.io/cocoapods/p/R.swift.svg?style=flat)
 
+> 因本地化文件和图片素材过多，导致生成文件太大，因此精简了生成代码，去掉注释，去掉font、segue、storyboard、nib、resueIdentifier、id、entitlements，生成代码时仅生成所需变量，不生成对应结构体，不再依赖`R.Swift.Library`，仅当前项目打包后加入开发项目，并增加script即可使用。
+
 _Get strong typed, autocompleted resources like images, fonts and segues in Swift projects_
 
 ## Why use this?
